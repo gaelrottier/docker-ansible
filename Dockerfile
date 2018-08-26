@@ -1,12 +1,3 @@
-# Dockerfile for building Ansible 1.9 image for Alpine 3, with as few additional software as possible.
-#
-# @see https://github.com/gliderlabs/docker-alpine/blob/master/docs/usage.md
-#
-# Version  1.0
-#
-
-
-# pull base image
 FROM alpine:3.6
 
 LABEL maintainer="Gaël Rottier <gaelrottier@gmail.com>"
